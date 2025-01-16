@@ -2,18 +2,18 @@
   "stats": {
     "suites": 4,
     "tests": 8,
-    "passes": 2,
+    "passes": 3,
     "pending": 0,
-    "failures": 6,
-    "start": "2025-01-16T12:06:01.522Z",
-    "end": "2025-01-16T12:06:01.929Z",
-    "duration": 407
+    "failures": 5,
+    "start": "2025-01-16T12:28:43.720Z",
+    "end": "2025-01-16T12:28:44.113Z",
+    "duration": 393
   },
   "tests": [
     {
       "title": "gives customers a free sample if the ride is less than or equal to 400 feet",
       "fullTitle": "index.js scuberGreetingForFeet() gives customers a free sample if the ride is less than or equal to 400 feet",
-      "duration": 0,
+      "duration": 1,
       "currentRetry": 0,
       "err": {}
     },
@@ -29,17 +29,12 @@
       "fullTitle": "index.js scuberGreetingForFeet() does not allow rides over 2500 feet",
       "duration": 1,
       "currentRetry": 0,
-      "err": {
-        "message": "expected undefined to equal 'No can do.'",
-        "showDiff": true,
-        "expected": "No can do.",
-        "stack": "AssertionError: expected undefined to equal 'No can do.'\n    at Context.<anonymous> (test/indexTest.js:12:46)\n    at processImmediate (internal/timers.js:464:21)"
-      }
+      "err": {}
     },
     {
       "title": "returns \"Ok, sounds good.\" when the city is NYC",
       "fullTitle": "index.js ternaryCheckCity() returns \"Ok, sounds good.\" when the city is NYC",
-      "duration": 0,
+      "duration": 2,
       "currentRetry": 0,
       "err": {
         "message": "expected undefined to equal 'Ok, sounds good.'",
@@ -63,7 +58,7 @@
     {
       "title": "should return \"Thank you so much.\" if the tip is generous",
       "fullTitle": "index.js switchOnCharmFromTip() should return \"Thank you so much.\" if the tip is generous",
-      "duration": 1,
+      "duration": 0,
       "currentRetry": 0,
       "err": {
         "message": "expected undefined to equal 'Thank you so much.'",
@@ -100,21 +95,9 @@
   "pending": [],
   "failures": [
     {
-      "title": "does not allow rides over 2500 feet",
-      "fullTitle": "index.js scuberGreetingForFeet() does not allow rides over 2500 feet",
-      "duration": 1,
-      "currentRetry": 0,
-      "err": {
-        "message": "expected undefined to equal 'No can do.'",
-        "showDiff": true,
-        "expected": "No can do.",
-        "stack": "AssertionError: expected undefined to equal 'No can do.'\n    at Context.<anonymous> (test/indexTest.js:12:46)\n    at processImmediate (internal/timers.js:464:21)"
-      }
-    },
-    {
       "title": "returns \"Ok, sounds good.\" when the city is NYC",
       "fullTitle": "index.js ternaryCheckCity() returns \"Ok, sounds good.\" when the city is NYC",
-      "duration": 0,
+      "duration": 2,
       "currentRetry": 0,
       "err": {
         "message": "expected undefined to equal 'Ok, sounds good.'",
@@ -138,7 +121,7 @@
     {
       "title": "should return \"Thank you so much.\" if the tip is generous",
       "fullTitle": "index.js switchOnCharmFromTip() should return \"Thank you so much.\" if the tip is generous",
-      "duration": 1,
+      "duration": 0,
       "currentRetry": 0,
       "err": {
         "message": "expected undefined to equal 'Thank you so much.'",
@@ -176,7 +159,7 @@
     {
       "title": "gives customers a free sample if the ride is less than or equal to 400 feet",
       "fullTitle": "index.js scuberGreetingForFeet() gives customers a free sample if the ride is less than or equal to 400 feet",
-      "duration": 0,
+      "duration": 1,
       "currentRetry": 0,
       "err": {}
     },
@@ -184,6 +167,13 @@
       "title": "charges 30 dollars for a distance over 2000 feet",
       "fullTitle": "index.js scuberGreetingForFeet() charges 30 dollars for a distance over 2000 feet",
       "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "does not allow rides over 2500 feet",
+      "fullTitle": "index.js scuberGreetingForFeet() does not allow rides over 2500 feet",
+      "duration": 1,
       "currentRetry": 0,
       "err": {}
     }
